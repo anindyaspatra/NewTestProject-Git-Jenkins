@@ -16,10 +16,10 @@ pipeline{
                 echo 'testing the application'
             }
         }
-        stage("test"){
+        stage("deploy"){
             steps {
                 //Scripts to execute some commands in Jenkins server
-                echo 'testing the application'
+                echo 'deploying the application'
             }
         }
     }
